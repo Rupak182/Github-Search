@@ -46,7 +46,7 @@ function App() {
     let timer =setTimeout(()=>{
       if(name)
         getData()
-    },500);
+    },100);
 
     return ()=>clearTimeout(timer);
 
